@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include strideusability *.css
+recursive-include strideusability *.csv
+recursive-include strideusability *.html
+recursive-include strideusability *.ico
+recursive-include strideusability *.js
+recursive-include strideusability *.json
+recursive-include strideusability *.md
+recursive-include strideusability *.png
+recursive-include strideusability *.py
+recursive-include strideusability *.svg
+recursive-include strideusability *.txt
+recursive-exclude strideusability *.pyc
